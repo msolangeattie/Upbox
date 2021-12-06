@@ -625,3 +625,99 @@ footer{
     transition: all 0.25s;
     background-color: #F5F8FF;
 }
+
+.grid_form{
+    display: grid;
+    grid-template-areas: 
+        "titulo titulo titulo"
+        "campo1 . ."
+        "campo2 . ."
+        "campo3 . ."
+        "campo4 . ."
+        "campo5 . ."
+        "btnform . .";
+    grid-template-columns: repeat(auto);
+    grid-template-rows: repeat(auto);
+    grid-column-gap: 3px;
+    grid-row-gap: 5px;
+    justify-items: center;
+}
+
+.grid_form h1{
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 56px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.title_form{
+    grid-area: titulo;
+}
+
+.campo1{
+    grid-area: campo1;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.campo2{
+    grid-area: campo2;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.campo3{
+    grid-area: campo3;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.campo4{
+    grid-area: campo4;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.campo5{
+    grid-area: campo5;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.btnform{
+    grid-area: btnform;
+    background: #EF8094;
+    width: 120px;
+    height: 32px;
+    border-radius: 4px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
