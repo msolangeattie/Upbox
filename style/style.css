@@ -395,17 +395,17 @@ footer{
     color: #000000;
 }
 
-.row{
+.row-f{
     margin-top: 20px;
     display: flex;
 }
 
-.row img{
+.row-f img{
     width: 26px;
     height: 26px;
 }
 
-.row p{
+.row-f p{
     margin-top: 10px;
     margin-left: 20px;
     font-family: DM Sans;
