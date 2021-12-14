@@ -62,7 +62,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: #6266ea !important;
+  color: #000000 !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -71,7 +71,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: #6266ea !important;
+  background-color: #000000 !important;
 }
 .service-wrapper .service-footer {
   max-width: 720px;
