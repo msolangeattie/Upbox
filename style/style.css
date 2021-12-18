@@ -1,15 +1,14 @@
 body{
     margin: 0;
-    padding: 0;
+    padding-top: 90px;
 }
 
 /* Se da estilo al nav bar */
 .menu_nav_bar {
     list-style-type: none;
-    margin-right: 111px;
+    margin-right: 40px;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFFFF;
     display: flex;
     float: right;
     font-family: DM Sans;
@@ -20,6 +19,7 @@ body{
     letter-spacing: 0.16em;
     color: #000000;
     text-transform: uppercase;
+    margin-top: unset;
 }
 
 li a {
@@ -32,12 +32,18 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+    transition: 0.5s;
+    color: #EF8094;
 }
 
 .contenedor_header {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    left: 0;
 }
 /* Se da estilo al nombre que acompaña al logo */
 .contenedor_header div p {
@@ -52,8 +58,9 @@ li a:hover {
 
 .Logo a{
     display: flex;
-    margin-left: 111px;
+    margin-left: 40px;
     text-decoration: none;
+    line-height: 18px;
 }
 
 .Logo{
@@ -62,6 +69,7 @@ li a:hover {
 
 .Logo p{
     margin-left: 16px;
+    margin-top: 14px;
 }
 
 .Logo a img {
@@ -720,4 +728,16 @@ footer{
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1100px) {
+    .container_body {
+        flex-wrap: wrap;
+    }
+    .columna_2, .columna_3 {
+        margin-top: 40px;
+    }
+    .columna_1 {
+        max-width: 100%;
+    }
 }
