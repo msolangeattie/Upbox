@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding-top: 90px;
@@ -42,8 +46,9 @@ li a:hover {
     align-items: center;
     position: fixed;
     width: 100%;
-    top: 20px;
-    left: 0;
+    top: 0px;
+    background-color: #fff;
+    padding:15px 0px;
 }
 /* Se da estilo al nombre que acompaña al logo */
 .contenedor_header div p {
@@ -78,7 +83,8 @@ li a:hover {
 }
 
 .contenedor_main {
-    margin-left: 40px;
+    background-color: #F5F8FF;
+    padding-left: 40px;
 }
 
 .contenedor_main h1 {
@@ -104,9 +110,15 @@ li a:hover {
     color: #000000;
 }
 
+.section_one .left,
+.section_one .right{
+    width:50%;
+}
+
+
 /* Se crea el CTA principal */
 .btn_main {
-    width: 215px;
+    width: auto;
     height: 59px;
     left: 0px;
     top: 0px;
@@ -132,18 +144,11 @@ li a:hover {
 
 .section_one {
     background-color: #F5F8FF;
-    height: 621px;
-    left: 0px;
-    right: 91px;
-    top: 0px;
+    display:flex;
 }
 
 .section_one img {
-    width: 1092px;
-    height: 756px;
-    left: calc(50% - 1092px/2 + 218.5px);
-    top: 112px;
-    position: absolute;
+    width: 100%;
 }
 
 .cards {
@@ -207,7 +212,7 @@ li a:hover {
     border: 4px solid #EF8094;
     box-sizing: border-box;
     border-radius: 300px;
-    width: 250px;
+    width: auto;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
