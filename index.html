@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Belleza, Salud, Maquillaje, Estilo, Box, Mujer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css">
-    <script src="https://kit.fontawesome.com/7c2517ce99.js" crossorigin="anonymous"></script>
     <title>Upbox</title>
 </head>
 <body>
@@ -15,14 +16,15 @@
                 <a href="#"><img src="./img/Logo.png" alt="Logo"></a>
                 <p>Upbox</p>
             </div>
-            <nav>
-                <ul class="menu_nav_bar">
-                    <li><a href="./pages/lanzamientos.html">Lanzamientos</a></li> 
-                    <li><a href="./pages/piel.html">Piel</a></li>
-                    <li><a href="./pages/pelo.html">Pelo</a></li>
-                    <li><a href="./pages/formulario.html">Contáctanos</a></li>
-                </ul>
-            </nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./pages/lanzamientos.html" class="active">Lanzamientos</a>
+                <a href="./pages/piel.html">Piel</a>
+                <a href="./pages/pelo.html">Pelo</a>
+                <a href="./pages/formulario.html">Contáctanos</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
         </div>
     </header>
 
@@ -31,7 +33,7 @@
             <div class="left">
                 <h1>Tu box de belleza en un click, sin salir de tu casa.</h1>
                 <p>Upbox es la forma más fácil de verte bien sin tener que preocuparte por la combinación perfecta de maquillaje. Nuestras asesoras se encargan de buscar las últimas tendencias de acuerdo a tu piel, estilo y enviar los productos directo a la puerta de tu casa.</p>
-                <a class="btn_main" href="./pages/formulario.html">Suscríbete</a>
+                <a class="btn btn_principal" href="./pages/formulario.html">Suscríbete</a>
             </div>
             <div class="right">
                 <img src="./img/boxhero.png" alt="imagen presentación">
@@ -57,7 +59,8 @@
         </section>
 
         <section class="section_three">
-            <h2 id="margin_title">¿Cómo funciona?</h2>
+            <!-- <h2 id="margin_title">¿Cómo funciona?</h2> -->
+            <h2>¿Cómo funciona?</h2>
             <div class="contenedor-servicios">
 
                 <div class="contenedor_servicios_uno">
@@ -69,7 +72,7 @@
                 </div>
 
                 <div class="contenedor_servicios_dos">                    
-                    <img src="./img/servicio2.png" alt="foto pack dos">
+                    <img class="ancho" src="./img/servicio2.png" alt="foto pack dos">
                     <div class="servicios_dos">
                         <h3>Revisa tu box personalizado</h3>
                         <p>Una vez que te conozcamos, te mostraremos el box que creamos. Esta es tu oportunidad de aprobar nuestra selección previo a que lo enviemos a tu casa.</p>
@@ -86,11 +89,12 @@
 
             </div>
             <div id="alinear_btn">
-                <a class="btn_main" href="./pages/formulario.html">Pruébalo para ti</a>
+                <a class="btn btn_secundario" href="./pages/formulario.html">Pruébalo para ti</a>
             </div>
         </section>
         
         <section class="section_four">
+            <!-- <h2 id="titulo_final">Redes Sociales</h2> -->
             <h2>Redes Sociales</h2>
             <div class="redes_fotos">
                 <div class="contenedor_redes">
@@ -185,4 +189,5 @@
             </div>
         </div>
     </footer>
+    <script src="./js/custom.js"></script>
 </body>
