@@ -3,11 +3,11 @@ $('#contenedor-menu').change(function(){
     $('nav').slideToggle();
 })
 
-// Get the container element
+// Obtenemos el id menu
 let menuContainer = document.getElementById("menu");
 // console.log(menuContainer);
 
-// Get all buttons with class="btn" inside the container
+// Obtenemos todos los elementos con la clase link
 let linksMenu = menuContainer.getElementsByClassName("link");
 // console.log(linksMenu);
 

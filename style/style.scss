@@ -40,6 +40,7 @@ body{
     top: 0px;
     background-color: $myColor3;
     padding: 5px;
+    z-index: 1000;
     /* Se da estilo al nombre que acompaña al logo */
     div p {
         font-family: $myFont1;
@@ -95,7 +96,7 @@ body{
 }
 
 /* Se crea el CTA principal */
-.btn {
+.btn_principal {
     width: auto;
     height: 59px;
     background: $myColor3;
@@ -117,6 +118,23 @@ body{
 
 .btn_secundario {
     margin-top: 50px;
+    width: auto;
+    height: 59px;
+    background: $myColor3;
+    border: 4px solid $myColor2;
+    border-radius: 300px;
+    color: $myColor1;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: $myFont1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    cursor: pointer;
 }
 
 .section_one {
@@ -813,6 +831,20 @@ footer{
 
     .redes_sociales {
         margin: 0px auto;
+    }
+
+    .grid_lanzamientos{
+        grid-template-areas: 
+            "titulo titulo titulo"
+            ". producto1 ." 
+            ". producto2 ." 
+            ". producto3 ."
+            ". producto4 ." 
+            ". producto5 ." 
+            ". producto6 ."
+            ". producto7 ." 
+            ". producto8 ." 
+            ". producto9 .";
     }
 
 }
